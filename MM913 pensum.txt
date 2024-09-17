@@ -1,0 +1,12 @@
+MM913 pensum
+
+1. Variables
+2. Conditionals
+3. Funksjoner - verb, alltid utførende eller spørrende 
+4. Løkker (loop) - noe vi kan bruke for å gjenta en bit med kode igjen og igjen
+5. Lists - en variabel (subjektiv) når du navngir den
+
+Vi skal tenke ut i fra disse 5 og kun disse fem. 
+
+Mozilla har øverste ansvar for JavaScript.
+kan søke opp alt på developer.mozilla.org
