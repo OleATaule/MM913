@@ -1,0 +1,19 @@
+let students = [
+    { ID: 23, name:"Tony", email: "tonyb@uia.no"},
+    { ID: 20, name:"Christian", email: "christian.simonsen@uia.no" };
+];
+console.log(students[0].name);
+//gir kun navn og ikke epostadressen
+
+
+let students 
+
+function printStudent(student){
+    console.log
+}
+
+
+
+//lister må slås opp på index
+
+//node xxx.mjs for å kjøre test av programmet hvor xxx er filnavnet

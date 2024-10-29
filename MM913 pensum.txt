@@ -10,3 +10,41 @@ Vi skal tenke ut i fra disse 5 og kun disse fem.
 
 Mozilla har øverste ansvar for JavaScript.
 kan søke opp alt på developer.mozilla.org
+
+---
+
+// 1. variabler
+let navn = "verdi";
+const NAVN_KONSTANT = "verdi";
+
+// 2. Array [liste]
+let frukt = ["eple","appelsin","tomat"];
+console.log(frukt[0]); //--> eple
+
+//3. Loops (løkker)
+for(let i = 0; i < frukt.length; i++) {	//i++ avgjør hvor komplisert tellingen er
+	console.log(frukt[1]);
+}
+
+i kan være hva som helst, men som regel når man ser i, brukes det i en løkke. 
+vi setter i til 0. frukt.length er lengden av lista. i++ er å legge til en, slik at når løkka gjentas, legger den til en for hver gang den gjentar. derfor starter den på 0 (første i lista, og gjentar alle nedover ettersom vi har 1++. 
+
+//4. Conditionals (if)
+if(true){ 	// det som står i parentes, må være sant for at koden under skal skje
+	console.log("Jupp");
+
+} else if(){
+
+} else{
+}
+else gjøres når if() ikke er sann/lenger er sann. if er hovedspørsmålet (kun ett), men du kan ha så mange 'else if' du vil/trenger. 
+
+&& = og
+hvis du vil ha flere kondisjoner (er student, alder over/under etc)
+
+//5. Functions (funksjoner)
+function tellNedFra(max){
+ for(let i = max; 1 > 0 ; i--) {
+	console.log(i);
+	}
+}

@@ -1,0 +1,40 @@
+//Funksjoner
+/*
+function TelleTil(verdi){
+    console.log("Jeg skal telle til " + verdi);
+}
+
+TelleTil(10); */
+
+// her blir 10 puttet inn i variabelnavnet 'verdi'
+
+let padd = 0;
+//padd har ingenting med funksjonen å gjøre, kun for å visualisere
+
+function TelleTil(verdi){
+    console.log(" ".padStart(padd, "\t\t") + "Telle til " + verdi)
+    if(verdi > 1) {
+        padd++;
+        TelleTil(verdi - 1);
+    }
+    console.log(" ".padStart(padd) +);
+    padd--;
+}
+
+TelleTil(3);
+
+//funksjoner er vår ultimate byggekloss
+//variabler er bare en måte å lagre våre byggeklosser på
+
+
+
+function calculateSum(numbers){
+    let sum = numbers[0];
+    for (let i = 1; i < numbers.length; i++){
+        sum += numbers[i];
+    }
+    return sum;
+}
+
+let calculatedSum = calculateSum([2, 3, 4, 5, 6, 7, 8, 9]);
+console.log(calculateSum);

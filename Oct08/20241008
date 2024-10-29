@@ -1,0 +1,54 @@
+
+let fruit = "eple";
+const fruits = ["Kiwi","Orange","Plum"];
+const funskjonsVariabel = sayHello;
+
+
+for(let i = 0; i < fruits.length; i++){
+    console.log("Telle " + fruits[i]);
+}
+
+//telleløkke - dette er den viktigste løkka å lære!
+
+for(let f of fruits){
+    console.log("of" + f);
+}
+//teller oppover, tar med alle i lista
+
+for(let i in fruits){
+    console.log("In " + i );
+}
+
+//en for-løkke som kun gir oss posisjonene. må legge til " + fruits[i]" for å også få med navn på fruktene
+
+
+//variabel er den viktigste å forstå for oss
+
+function eatFruit(fruit){
+    console.log("Munching on a ", fruit);
+}
+
+eatFruit(fruit);
+eatFruit(fruits[0]);
+
+const eatFruitFunction = eatFruit;
+
+function doThisALotOfTimes(times,fn){
+    for(let i = 0; i < times; i++){
+        fn();
+    }
+}
+
+funtion sayHello(){
+    print("Hello");
+}
+
+const fn = sayHello
+
+//fn er kort for funksjon
+
+
+//------
+function print(msg){
+    console.log(msg);
+}

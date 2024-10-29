@@ -1,0 +1,16 @@
+const fruits = ["Kiwi","Orange","Plum"];
+let index = 0;
+
+while( index < fruits.length){
+    console.log(fruits[index]);
+    index++;
+}
+
+index = 0;
+
+do{
+    console.log(fruits[index]);
+    index++;
+} while (index < fruits.length);
+
+console.log(index);

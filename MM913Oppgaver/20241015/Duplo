@@ -1,0 +1,24 @@
+/*
+let person = {
+    navn: "Christian",
+    epost:"Christian.simonsen@uia.no"
+}
+
+const { navn,epost } = person;
+console.log(navn);
+console.log(epost);
+*/
+
+let frukt = ["Appelsin","Eple"];
+
+function spis(f){
+    console.log(`spiser ${f}`);
+}
+
+spis(frukt[1]);
+
+/*
+} else}
+ //i alle andre tilfeller
+*/
+

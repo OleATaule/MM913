@@ -1,0 +1,26 @@
+let ordbok = {
+    no: {
+        Title: "Stein, Saks, Papir",
+        Rock: "Stein",
+        Paper: "Papir",
+        Scissors: "Saks",
+    }
+
+
+    en: {
+        Title: "Rock, Paper, Scissors",
+    }
+
+    jn: {
+        Title: "Janken",
+        Rock: "Guu",
+        Paper: "Paa",
+        Scissors: "Choki",
+    }
+
+}
+
+
+export default DICTIONARY
+
+// let dictionary = ordbok.no
