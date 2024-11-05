@@ -19,7 +19,7 @@ for(let index = 0; index < people.length; index++){
     console.log(person);
 }
 
-print
+print 
 
 /*
     Oppgave: A
